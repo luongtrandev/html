@@ -6,26 +6,31 @@
        
     </head>
     <body >
+        <br>
         <script src = "index.js"></script>
         <h1>Collapsed Borders</h1>
         <br>
-        <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
-        <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
         <br>
-
-        <table class="center" style="width:300p" margin="center">
-        <tr  class="td1" height="30px" >
-            <th width="100px">Firstname</th>
-            <th width="40px">Last</th> 
-            <th width="150px">Age</th>
-            <th width="40px">Age</th>
-            <th width="80px">Age</th>
+      
+        <div class="textfirst">
+            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+        </div>
+        <br>
+        
+        <table class="center" >
+        <tr  class="td1"  >
+            <th class = "th1">Firstname</th>
+            <th class = "th2">Last</th> 
+            <th class = "th3">Age</th>
+            <th class = "th4">Age</th>
+            <th class = "th5">Age</th>
 
         </tr>
         <tr >
             <td class="td">Jilll</td>
             <td></td>
-            <td><input width="55px" type="text" id="o1">Text code</td>
+            <td><input  type="text" id="o1">(Text code)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o1').value = ''">Click</button></td>
         </tr>
@@ -102,12 +107,15 @@
         </table>
         
         <div class="div1">
-            <button class="btn" type="button" onclick="canvas1()">Run</button>
-            <button class="btn" type="button">Run detail</button>
-            <button class="btn" type="button">Clear</button>
+            <button class="btn" type="button" onclick="canvas2()">Run</button>
+            <button class="btn" type="button" onclick="canvas1()">Run detail</button>
+            <button class="btn" type="button" onclick="clearall()">Clear</button>
         </div>
-        <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
-        <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+        <div class="textlast">
+            <p >If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+        </div>
+        
     
     </body>
 </html>
