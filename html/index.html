@@ -6,116 +6,125 @@
        
     </head>
     <body >
+        <div class="demo"> 
+            <span id="en" class="button_lang current_lang">EN</span>
+            <span id="jp" class="button_lang">日本語</span>
+            <!-- <div class="translation english" id="translate">
+            The text here will change
+            </div> -->
+        </div>
         <br>
         <script src = "index.js"></script>
-        <h1>Collapsed Borders</h1>
+        <h1>検索条件入力</h1>
         <br>
         <br>
       
         <div class="textfirst">
-            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
-            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+            <p>訂正・取消伝票エビデンス (複数枚数一覧表示) に対する検索条件を入力してください。</p>
+            <p> 各項目の候補値を入力して [実行]ボタンをクリックして下さい。</p>
         </div>
         <br>
         
         <table class="center" >
         <tr  class="td1"  >
-            <th class = "th1">Firstname</th>
-            <th class = "th2">Last</th> 
-            <th class = "th3">Age</th>
-            <th class = "th4">Age</th>
-            <th class = "th5">Age</th>
+            <th class = "th1">項目名</th>
+            <th class = "th2">条件</th> 
+            <th class = "th3">候補値</th>
+            <th class = "th4">入力</th>
+            <th class = "th5">候補値切替</th>
 
         </tr>
         <tr >
-            <td class="td">Jilll</td>
+            <td class="td">于 - ㄙCD</td>
             <td></td>
-            <td><input  type="text" id="o1">(Text code)</td>
+            <td><input  type="text" id="o1">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o1').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">得意先CD</td>
             <td></td>
-            <td><input type="text" id="o2">Text code</td>
+            <td><input type="text" id="o2">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o2').value = ''">Click</button></td>
         </tr>
         <tr>
-            <td class="td">Jilll</td>
+            <td class="td">納品日(From)</td>
             <td></td>
-            <td><input type="text" id="o3">Text code</td>
+            <td><input type="text" id="o3">(YYMMDD)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o3').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">納品日(To)</td>
             <td></td>
-            <td><input type="text" id="o4">Text code</td>
+            <td><input type="text" id="o4">(YYMMDD)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o4').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">伝票区分</td>
             <td></td>
-            <td><input type="text" id="o5">Text code</td>
+            <td><input type="text" id="o5"></td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o5').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">伝票番号</td>
             <td></td>
-            <td><input type="text" id="o6">Text code</td>
+            <td><input type="text" id="o6">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o6').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">仕入先ＣＤ</td>
             <td></td>
-            <td><input type="text" id="o7">Text code</td>
+            <td><input type="text" id="o7">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o7').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">客先注番</td>
             <td></td>
-            <td><input type="text" id="o8">Text code</td>
+            <td><input type="text" id="o8">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o8').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">ＨＡＴ注番</td>
             <td></td>
-            <td><input type="text" id="o9">Text code</td>
+            <td><input type="text" id="o9">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o9').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">品番または品名</td>
             <td></td>
-            <td><input type="text" id="o10">Text code</td>
+            <td><input type="text" id="o10">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o10').value = ''">Click</button></td>
         </tr>
         <tr  >
-            <td class="td">Jilll</td>
+            <td class="td">分類ＣＤ</td>
             <td></td>
-            <td><input type="text" id="o11">Text code</td>
+            <td><input type="text" id="o11">(中間一致検索)</td>
             <td></td>
             <td><button class="bt" onclick="document.getElementById('o11').value = ''">Click</button></td>
         </tr>
         </table>
-        
+        <br>
         <div class="div1">
             <button class="btn" type="button" onclick="canvas2()">Run</button>
             <button class="btn" type="button" onclick="canvas1()">Run detail</button>
             <button class="btn" type="button" onclick="clearall()">Clear</button>
         </div>
+        <br>
         <div class="textlast">
-            <p >If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
-            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+            <p > 各項目の候補値を入力して [実行]ボタンをクリックして下さい。</p>
+            <p>また,「◇」がある候補値が未入力の場合、 検索条件対象外となります。</p>
         </div>
-        
+        <br>
+        <br>
     
     </body>
 </html>

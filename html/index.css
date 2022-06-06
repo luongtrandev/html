@@ -1,3 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+
+.demo {
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;   
+}
+
+.button_lang {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.25em 0em;
+    border-radius: 10px; 
+    width: 4em;
+    transition: 1 ease; 
+}
+.button_lang:hover {
+    background: #b5d6b2;
+    transition: 0.25s ease;
+}
+  
+.current_lang {
+    background: #b5d6b2;
+}
+  
+
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -5,47 +37,47 @@ html, body {
 
 html {
     display: table;
-    margin: auto;
+    /* margin: auto; */
 }
 
 body {
     display: table-cell; 
     vertical-align: middle;
-    margin: auto;
+    margin: auto; 
 } 
 
 input{
-    width: 95%;
-    height: 45%;
+    width: 90%;
+    height: 40%;
     display: block;
     margin: auto;
 }
 table{
-    width: 30%;
-    height: 65%;
+    width: 24%;
+    height: 57.5%;
 }
 .th1{
-    width: 25%;
+    width: 26%;
    
 }
 .th2{
-    width: 8%;
+    width: 8.5%;
 }
 .th3{
-    width: 35%;
+    width: 36.5%;
 }
 .th4{
-    width: 8%;
+    width: 8.5%;
 }
 .th5{
-    width: 16%;
+    width: 20.5%;
 }
 
 td{
-    height:9%;
+    height:8.5%;
 }
 th{
-    height:4.5%;
+    height:5%;
 }
 
 table, th, td {
@@ -58,7 +90,7 @@ table, th, td {
     }
 h1 {   
     width: 15%;
-    background-color: #2e7ba8;
+    background-color: rgb(181, 205, 250);
     text-align: center;
     margin: auto;
 }
@@ -71,18 +103,21 @@ p {text-align: center;}
     text-align: center;
 }
 .btn{
+    /* border-radius:10px;  */
+    min-width: 100px;
+    height: 25px;
     border: 0.5px solid black;
-    background-color: rgb(157, 157, 221);
+    background-color: rgb(181, 205, 250);
     color:black;
     margin: 20px; 
 }
 
 .td1{
-    background-color: rgb(93, 93, 136);
+    background-color: rgb(123, 158, 246);
     color:white;
 }
 .td{
-    background-color: rgb(125, 125, 226);
+    background-color: rgb(181, 205, 250);
     color:#4800ff;
     text-align: right;
 }
@@ -97,4 +132,7 @@ p {text-align: center;}
 }
 .textfirst{
     line-height: 0.5;
+}
+.td0{
+    height: 10px;
 }

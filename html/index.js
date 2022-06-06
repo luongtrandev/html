@@ -1,10 +1,8 @@
 function canvas2() {
-    location.replace('canvas2.html');
-    console.log("aaa");
+    window.location='canvas2.html';
 }
 function canvas1(){
-    location.replace('canvas1.html');
-    console.log("aa");
+    window.location='canvas1.html';
 }
 function clearall(){
     document.getElementById('o1').value = "";
